@@ -59,4 +59,5 @@ Modern login system with animations and secure authentication.
 
 ## 👩‍💻 Author
 
-Vaishnavi Pawar
+Mayuri shivankar
+
