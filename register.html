@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="particles"><span></span><span></span><span></span></div>
+
+<div class="butterflies">
+<div class="butterfly"><div class="wing left"></div><div class="wing right"></div></div>
+<div class="butterfly"><div class="wing left"></div><div class="wing right"></div></div>
+<div class="butterfly"><div class="wing left"></div><div class="wing right"></div></div>
+<div class="butterfly"><div class="wing left"></div><div class="wing right"></div></div>
+</div>
+
+<div class="container">
+<h2>Register</h2>
+
+<form method="POST">
+<input type="text" name="username" required>
+<input type="password" name="password" required>
+<button type="submit">Register</button>
+</form>
+
+<br>
+<a href="/login">Login</a>
+</div>
+
+</body>
+</html>
